@@ -1,0 +1,97 @@
+/* Selector universal  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Contendio Body */
+body {
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+/* -------------------- Titulo General -------------------- */
+.titulo-general {
+    color: tomato;
+    text-align: center;
+    margin: 50px;
+}
+
+/* ---------------- Descripcion ----------------- */
+.formulariosub1{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.formulariosub1 .titulo-descripcion1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 40px;
+}
+
+/* ---------------------------------    FORMULARIO    --------------------------------- */
+/* Section 4 Formulario */
+/* Tamaño que ba a tener el Formulario  */
+.formulariosub {
+    background: #00334e;
+    border: 5px solid #2e478d;
+    border-radius: 10px;
+    margin: 25px;
+}
+/* Titulo del Formulario */
+
+h3 {
+    font-size: 34px;
+    font-family: Verdana;
+    margin: 15px;
+    text-align: center;
+    color: white;
+}
+/* Margen y relleno del Formulario */
+.formulariosub .formulario {
+    margin: 5px 10px;
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formulariosub .formulario input[type="text"],
+.formulariosub .formulario input[type="text"],
+.formulariosub .formulario input[type="email"] {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    /* tamaño para poder escribir */
+    padding: 10px 15px;
+    font-size: 15px;
+    /* Color al rato de escribir */
+    color: #4a4a4a;
+}
+
+.formulariosub .formulario input[type="text"],
+.formulariosub .formulario input[type="text"],
+.formulariosub .formulario input[type="email"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Boton de Suscribirse */
+.formulariosub .formulario .boton {
+    margin: 0 auto;
+    background: #3895ea;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.formulariosub .formulario .boton:hover {
+    background: #387bea;
+}

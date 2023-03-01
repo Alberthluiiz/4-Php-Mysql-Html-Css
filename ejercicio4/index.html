@@ -1,0 +1,45 @@
+<!-- El servidor lo levante con el comando php -S localhost:3000 ya que me encuentro actualmente 
+trabajando el Ubuntu.
+
+La ruta de este ejercicio es: http://localhost:3000/ejercicio4/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1 class="titulo-general"> Deber PHP - ITB Online </h1>
+<!-- ----------- Descripcion ----------- -->
+    <div class="formulariosub1">
+        <div class="descripcion1">
+            <h3 class="titulo-descripcion1">
+            Escriba un script PHP de nombre ejercicio4.php que ingrese los datos
+            de nombre de usuario y email a una tabla de la base de datos a través
+            de un formulario.  
+            </h3>
+        </div>
+    </div>
+    <!------------- Inicio del  Formulario ------------ -->
+
+    <section class="formulariosub">
+        <div class="contenedor">
+            <form class="formulario" action="ejercicio4.php" method="post">
+                <h3> Formulario </h3>
+                <input type="text" placeholder="Nombre: Ej: Luis Guillen" name="nombres" required>
+                <input type="email" placeholder="E-mail: Ej:estudiante@ieb.edu.ec" name="correos" required>
+                <input class="boton" type="submit" value="Registrar" required>
+                <input class="boton" type="reset" value="Borrar" required>
+            </form>
+        </div>
+    </section>
+    <!------------- Fin del Formulario ------------ -->
+</body>
+
+</html>
